@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: chinese;
+    src: url(../fonts/chineserocksrg.otf);
+}
+@font-face {
+    font-family: punkid;
+    src: url(../fonts/punkkid.ttf);
+}
+@font-face {
+    font-family: susss;
+    src: url(../fonts/SUSE-VariableFont_wght.ttf);
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: #ffff00;
+    margin: auto;
+}
+header{
+
+    background-color: black;
+    width: 1366px;
+    height: 50px;
+    text-align: center;
+}
+.header img{
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-family: chinese;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    line-height: 50px;
+}
+section{
+    background-color: yellow;
+    text-align: center;
+    width: 1366px;
+    height: 1700px;
+}
+h2{
+    font-family: chinese;
+    color: #ffff00;
+    font-size: xx-large;
+    text-align: left;
+    padding: 3px;
+    height: 8px;
+    font-weight: lighter;
+}
+footer{
+    background-color: black;
+    width: 1366px;
+    height: 200px;
+}
+.foto{
+    background-color: black;
+    height: 160px;
+    width: 390px;
+}
+.ponente{
+    width: 450px;
+    height: 450px;
+    background-color: black;
+    float: left;
+    
+}
+.texto{
+    color: yellow;
+    width: 400px;
+    height: 140px;
+    text-align: left;
+    padding: 5px;
+    font-family: susss;
+    font-size: 16px;
+}
+.info{
+    background-color: #ffff00;
+    width: 1340px;
+    height: 900px;
+    margin: 20px;
+    
+}
+.extra{
+    width: 425px;
+    height: 425px;
+    background-color: black;
+    float: right;
+    
+}
+.foto{
+    text-align: left;
+}
+.cor{
+    font-family: chinese;
+    color: yellow;
+    text-align: center;
+    width: 683px;
+    height: 200px;
+    float: left;
+    font-size: x-large;
+}
+.tel{
+    font-family: chinese;
+    color: yellow;
+    text-align: center;
+    width: 683px;
+    height: 200px;
+    float: left;
+    font-size: x-large;
+    
+}
+.contenedor{
+    width: 1366px;
+    height: 200px;
+    
+}
